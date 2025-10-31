@@ -58,19 +58,25 @@ import brushc12 from '../assets/images/brushes/cejasp1.png';
 import brushc13 from '../assets/images/brushes/cejas1.png';
 import brushc14 from '../assets/images/brushes/indb1.png';
 import brushc15 from '../assets/images/brushes/setbpi1.png';
+import brushc16 from '../assets/images/brushes/indc1.png';
+import brushc17 from '../assets/images/brushes/indi1.png';
+import brushc18 from '../assets/images/brushes/indd1.jpg';
 import beuty1 from '../assets/images/beauty/bbv1.png';
 import beuty2 from '../assets/images/beauty/bbn1.png';
 import beuty3 from '../assets/images/beauty/borlad1.png';
+import beuty4 from '../assets/images/beauty/borlat1.png';
 import hairs1 from '../assets/images/hair/brushn1.png';
 import hairs2 from '../assets/images/hair/brushc1.png';
 import hairs3 from '../assets/images/hair/brushb1.png';
 import hairs4 from '../assets/images/hair/brushs1.png';
 import hairs5 from '../assets/images/hair/brushac1.png';
 import hairs6 from '../assets/images/hair/combn1.png';
+import hairs7 from '../assets/images/hair/cleanl1.png';
 import lip1 from '../assets/images/lips/linerl1.png';
 import lip2 from '../assets/images/lips/stickl1.png';
 import lip3 from '../assets/images/lips/stickb1.png';
 import lip4 from '../assets/images/lips/lipot1.png';
+import lip5 from '../assets/images/lips/lipp1.png';
 import mores1 from '../assets/images/more/curler1.png';
 import mores2 from '../assets/images/more/eyelashes1.png';
 import mores3 from '../assets/images/more/adhesive1.png';
@@ -81,12 +87,15 @@ import mores7 from '../assets/images/more/eyelashesi1.png';
 import mores8 from '../assets/images/more/pinzap1.png';
 import mores9 from '../assets/images/more/pinzao1.png';
 import mores10 from '../assets/images/more/termost1.png';
+import mores11 from '../assets/images/more/sanitizer1.png';
+import mores12 from '../assets/images/more/shine1.png';
 import cosmetics1 from '../assets/images/cosmetic/bagn1.png';
 import cosmetics2 from '../assets/images/cosmetic/bagb1.png';
 import cosmetics3 from '../assets/images/cosmetic/backp1.png';
 import cosmetics4 from '../assets/images/cosmetic/bagm1.png';
 import cosmetics5 from '../assets/images/cosmetic/backg1.png';
 import cosmetics6 from '../assets/images/cosmetic/bagmp1.png';
+import cosmetics7 from '../assets/images/cosmetic/bage1.png';
 
 
 
@@ -173,13 +182,22 @@ export const allProducts = [
   { id: 78, name: "Lapiz para cejas-Retractil", category: "face", subCategory: "liner", color: "cafe", price: 24, imageUrl: faces22},
   { id: 79, name: "Polvo Suelto", category: "face", subCategory: "polvo", color: "beige", price: 36, imageUrl: faces23},
   { id: 80, name: "Lip Oil-Tinta", category: "lips", subCategory: "lip", color: "rosado", price: 26, imageUrl: lip4},
-  { id: 81, name: "Set broochas + bag circular2", category: "brushes", subCategory: "set", color: "morado", price: 180, imageUrl: brushc7},
-  { id: 82, name: "Set broochas + bag tornasol", category: "brushes", subCategory: "set", color: "rosado", price: 147, imageUrl: brushc8},
-  { id: 83, name: "Set broochas + bag cuero", category: "brushes", subCategory: "set", color: "rosado", price: 120, imageUrl: brushc9},
-  { id: 84, name: "Set broochas + bag catera-Grande", category: "brushes", subCategory: "set", color: "rosado", price: 250, imageUrl: brushc10},
-  { id: 85, name: "Set broochas + bag catera", category: "brushes", subCategory: "set", color: "rosado", price: 210, imageUrl: brushc11},
+  { id: 81, name: "Set brochas + bag circular2", category: "brushes", subCategory: "set", color: "morado", price: 180, imageUrl: brushc7},
+  { id: 82, name: "Set brochas + bag tornasol", category: "brushes", subCategory: "set", color: "rosado", price: 147, imageUrl: brushc8},
+  { id: 83, name: "Set brochas + bag cuero", category: "brushes", subCategory: "set", color: "rosado", price: 120, imageUrl: brushc9},
+  { id: 84, name: "Set brochas + bag catera-Grande", category: "brushes", subCategory: "set", color: "rosado", price: 250, imageUrl: brushc10},
+  { id: 85, name: "Set brochas + bag catera", category: "brushes", subCategory: "set", color: "rosado", price: 210, imageUrl: brushc11},
   { id: 86, name: "Cepillo de cejas", category: "brushes", subCategory: "brush", color: "beige", price: 12, imageUrl: brushc12},
   { id: 87, name: "Cepillo de cejas-Plano", category: "brushes", subCategory: "brush", color: "beige", price: 14, imageUrl: brushc13},
   { id: 88, name: "Brocha para la base", category: "brushes", subCategory: "brush", color: "negro", price: 28, imageUrl: brushc14},
   { id: 89, name: "kit pequeño", category: "brushes", subCategory: "brush", color: "rosado", price: 75, imageUrl: brushc15},
+  { id: 90, name: "Brocha para el contorno", category: "brushes", subCategory: "brush", color: "negro", price: 35, imageUrl: brushc16},
+  { id: 91, name: "Brocha para el iluminador", category: "brushes", subCategory: "brush", color: "negro", price: 14, imageUrl: brushc17},
+  { id: 92, name: "Brocha difuminadora", category: "brushes", subCategory: "brush", color: "negro", price: 12, imageUrl: brushc18},
+  { id: 93, name: "Maleta rigida-Tornasol", category: "cosmetic", subCategory: "bag", color: "rosado", price: 50, imageUrl: cosmetics7},
+  { id: 94, name: "Borla x3", category: "beauty", subCategory: "borla", color: "rosado", price: 10, imageUrl: beuty4},
+  { id: 95, name: "Desinfectante", category: "more", subCategory: "desinfectate", color: "rosado", price: 20, imageUrl: mores11},
+  { id: 96, name: "Lip-Plumper", category: "lips", subCategory: "lip", color: "rosado", price: 16, imageUrl: lip5},
+  { id: 97, name: "Polvo Hadas-Corporal", category: "more", subCategory: "shine", color: "rosado", price: 16, imageUrl: mores12},
+  { id: 98, name: "Clean Look-Hair wax", category: "hair", subCategory: "clean", color: "rosado", price: 32, imageUrl: hairs7},
 ];
