@@ -16,13 +16,12 @@ import FooterProduct from "./assets/components/product/FooterProduct.jsx";
 function HomePage() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      {/* 💎 Productos recomendados */}
-      <FeaturedProducts />
-
-     
-     
+      
       {/* 🛍️ Productos destacados */}
       <MainProduct />
+      
+      {/* 💎 Productos recomendados */}
+      <FeaturedProducts />
       
       {/* 🔥 Banner superior */}
       <PromocionBanner />

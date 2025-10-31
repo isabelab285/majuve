@@ -50,42 +50,7 @@ const featuredProducts = [
         bgColor: 'bg-pink-100',
         hoverBgColor: 'hover:bg-pink-200',
     },
-    {
-        id: 5,
-        name: 'Rubor en polvo"',
-        category: 'ROSTRO',
-        price: 45.00,
-        imageUrl: 'https://placehold.co/600x800/dbeafe/60a5fa?text=Clásico+Moderno', // Gris claro  -- Acá img
-        bgColor: 'bg-pink-100',
-        hoverBgColor: 'hover:bg-pink-200',
-    },
-    {
-        id: 6,
-        name: 'Mascara de pestañas',
-        category: 'OJOS',
-        price: 42.99,
-        imageUrl: 'https://placehold.co/600x800/dbeafe/60a5fa?text=Denim+Esencial', // Azul denim
-        bgColor: 'bg-pink-100',
-        hoverBgColor: 'hover:bg-pink-200',
-    },
-    {
-        id: 7,
-        name: 'Rujo Labial',
-        category: 'LABIOS',
-        price: 32.00,
-        imageUrl: 'https://placehold.co/600x800/dbeafe/60a5fa?text=Accesorio+Trendy', // Morado suave
-        bgColor: 'bg-pink-100',
-        hoverBgColor: 'hover:bg-pink-200',
-    },
-    {
-        id: 8,
-        name: 'Iluminador',
-        category: 'ROSTRO',
-        price: 45.25,
-        imageUrl: 'https://placehold.co/600x800/dbeafe/60a5fa?text=Estilo+Urbano', // Negro grisáceo
-        bgColor: 'bg-pink-100',
-        hoverBgColor: 'hover:bg-pink-200',
-    },
+    
 ];
 
 const FeaturedProducts = () => {

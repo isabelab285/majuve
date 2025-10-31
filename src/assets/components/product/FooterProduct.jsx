@@ -24,7 +24,7 @@ const Footer = () => (
                 </div>
                  <div>
                     <h4 className="font-bold uppercase text-white mb-4">Contacto</h4>
-                    <p className="mb-2">Email: majuve_beauty@gmail.com</p>
+                    <p className="mb-2">Email: majuve.beauty@gmail.com</p>
                     <p className="mb-2">Tel: (+57) 3206681668</p>
                     {/* Iconos de redes sociales */}
                     <div className="flex gap-4 mt-4 justify-center md:justify-start">
